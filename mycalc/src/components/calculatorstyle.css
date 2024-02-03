@@ -1,0 +1,64 @@
+/* Calculator.css */
+.calculator-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffdab9; /* Peachpuff color for teddy bear background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .calculator-input {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 -5px; /* Add negative margin to compensate for space-around */
+  }
+  
+  button {
+    background-color: #f0a0a0;
+    border: none;
+    padding: 15px;
+    margin: 5px; /* Add margin for spacing between buttons */
+    font-size: 16px;
+    border-radius: 50%; /* Rounded buttons for teddy bear look */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e07070;
+  }
+  
+  /* Additional styles for a teddy bear appearance */
+  .button-1 {
+    background-color: #d98771; /* Light brown */
+  }
+  
+  .button-2 {
+    background-color: #c56c53; /* Dark brown */
+  }
+  
+  .button-3 {
+    background-color: #4d3319; /* Teddy bear nose color */
+    color: #fff; /* White text for visibility */
+  }
+  
+  .button-clear {
+    background-color: #ffa07a; /* Lighter peachpuff color for clear button */
+  }
+  
